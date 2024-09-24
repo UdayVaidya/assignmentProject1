@@ -1,0 +1,31 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #f4d109;
+}
+td.time {
+    background-color: #d9d9d9;
+}
+td.home {
+    background-color: #eaabab;
+    font-weight: bold;
+    font-size: 1.2em;
+    vertical-align: middle;
+}
+.no-border {
+    border: none;
+}
+.header-row th {
+    background-color: #f4d109;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: 1px solid black;
+}
